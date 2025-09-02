@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+web/node_modules
+server/node_modules
+
+# builds
+dist
+build
+
+# environment files (API keys, secrets)
+.env
+server/.env
+web/.env
+
+# database
+*.sqlite
+*.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
